@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./Miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../context/chatProvider";
-const ENDPOINT = "https://talk-a-tive-zqy7.onrender.com/"; 
+const ENDPOINT = "https://talk-a-tive-zqy7.onrender.com"; 
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
